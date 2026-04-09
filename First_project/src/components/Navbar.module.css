@@ -1,0 +1,33 @@
+.nav{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 15px 40px;
+    background-color: white;
+    
+}
+
+.logo{
+    font-size: 22px;
+    font-weight: bold;
+    color: black;    
+}
+
+.links{
+    display: flex;
+    list-style: none;
+    gap: 30px;
+}
+
+.links li {
+    cursor: pointer;
+    color: rgba(0, 0, 0, 0.878);
+}
+
+.btn{
+    background-color: rgba(0, 157, 255, 0.855);
+    color: white;
+    padding: 10px 15px;
+    border: none;
+    border-radius: 6px;
+}
