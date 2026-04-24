@@ -12,24 +12,17 @@
     filter: brightness(1.1) constrast(1.2);
 }
 
-.hero::before {
-    content: "";
-    position: absolute;
-    inset: 0;
-    background: radial-gradient;
-    pointer-events: none;
-}
 
 .title{
     font-size: 50px;
     font-weight: bold;
     color: rgba(255, 255, 255, 0.95);
-    text-shadow: 0 0 20px rgba(255, 255, 255, 0.8),0 0 40px rgba(0,200,255,0.8);
+    
     margin-bottom: 15px;  
 }
 
 .subtitle{
-    font-size: 2opx;
+    font-size: 20px;
     max-width: 600px;
     color: rgba(255, 255, 255, 0.95);
     margin-bottom: 30px;
@@ -53,6 +46,3 @@
 
 }
 
-.btn:hover, .btn1:hover {
-    transform: translateY(-3px) scale(1.05);
-}
